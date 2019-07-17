@@ -13,7 +13,7 @@ I realise that this application is literally a wrapper for spotify,
 only being able to add songs to a single playlist, but I had fun making it, so sod off. 
 
 To start your fantastic spotify app:
-
+  * Install elixir and phoenix. 
   * Install dependencies with `mix deps.get`
   * Set up postgres! Start a postgres server somewhere, add postgres (admin) credentials to **/config/dev.exs**
   * Create an app in [spotifys API](https://developer.spotify.com/dashboard), set id and secret in **/config/dev.exs**
@@ -26,6 +26,7 @@ To start your fantastic spotify app:
   * Add the https element in **/config/dev.exs** with `port: 443`, and `ip: {127,0,0,1}`
   * * Note that opening a socket on this port will require sudo, and is probably a massive security gap
   * Start Phoenix endpoint with `mix phx.server`
+This install sequence has never been tested aswell, so yay me. 
 
 Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
 
