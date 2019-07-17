@@ -1,0 +1,6 @@
+<%= form_for @conn, Routes.search_path(@conn, :search), [as: :searchParams], fn f -> %>
+  <%= text_input f, :queryString, value: @query %>
+  <%= submit "Search" %>
+<% end %>
+
+<%= SpotifyControllerV2.SongTableRenderer.renderSongTable(@conn, @results, "songTableCell", true) %>

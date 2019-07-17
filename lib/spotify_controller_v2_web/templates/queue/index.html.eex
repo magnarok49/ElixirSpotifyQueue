@@ -1,0 +1,1 @@
+<%= SpotifyControllerV2.SongTableRenderer.renderSongTable(@conn, @results, "queueTableCell", false) %>

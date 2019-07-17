@@ -1,0 +1,42 @@
+/* This file is for your main application css. */
+
+@import "./phoenix.css";
+
+/* 
+table {
+  margin-bottom: 0.1rem;
+} */
+
+.songTableCell {
+  margin-bottom: 0.1rem;
+}
+
+.queueTableCell {
+  margin-bottom: 0.1rem;
+}
+
+.artistSongsTableCell {
+  margin-bottom: 0.1rem;
+}
+
+.artistAlbumsTableCell {
+  margin-bottom: 0.1rem;
+}
+
+.artistRelatedTableCell {
+  margin-bottom: 0.1rem;
+}
+
+.albumHeader {
+  margin-bottom: 0.1rem;
+}
+
+/* .albumHeader br {
+  line-height: 0.1;
+  font-size: 0.1em;
+}
+
+.albumHeader h1 {
+  margin-bottom: 0.1rem;
+  position: center;
+} */

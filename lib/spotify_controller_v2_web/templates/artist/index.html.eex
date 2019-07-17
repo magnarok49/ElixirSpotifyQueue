@@ -1,0 +1,7 @@
+<%= content_tag(:h1, @name)%>
+<%= content_tag(:h2, "Songs:")%>
+<%= SpotifyControllerV2.SongTableRenderer.renderSongTable(@conn, @songs, "artistSongsTableCell", true) %>
+<%= content_tag(:h2, "Albums:")%>
+<%= SpotifyControllerV2.AlbumTableRenderer.renderAlbumTable(@conn, @albums, "artistAlbumsTableCell") %>
+<%= content_tag(:h2, "Related artists:")%>
+<%= SpotifyControllerV2.ArtistTableRenderer.renderArtistTable(@conn, @related, "artistRelatedTableCell") %>

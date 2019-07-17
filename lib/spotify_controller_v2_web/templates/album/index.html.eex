@@ -1,0 +1,9 @@
+<%= content_tag(:span, [
+  content_tag(:h1, @name <> " by "),
+  SpotifyControllerV2.MiscRenderer.renderArtistList(@artists, "albumByArtists"),
+  content_tag(:br, [])
+], class: "albumHeader")%>
+<%= img_tag(@coverUrl) %>
+<%= content_tag(:br, []) %> 
+<%= content_tag(:h2, "Songs:")%>
+<%= SpotifyControllerV2.SongTableRenderer.renderSongTable(@conn, @songs, "artistSongsTableCell", true) %>
