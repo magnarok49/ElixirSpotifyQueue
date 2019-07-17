@@ -34,3 +34,8 @@ then you should be able to use the application from any said IPs on the LAN, by 
 
 Ready to run in production? Please [check our deployment guides](https://hexdocs.pm/phoenix/deployment.html).
 
+A decent place to continue would be to read the deployment guide, figure out secrets, and decide if a database is necessary at all.
+From there one could set up a hostname, move everything to https and get more permanent SSL certs.
+
+Plans for further features includes a now-playing segment on the navbar, the home-page to be directly on search or queue pages,
+as well as functionality for vote to skip songs in queue.  
